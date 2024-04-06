@@ -38,7 +38,32 @@ console.log(typeof outsideTemp)
 
 // Stack memory (Primitive types), Heap (Non-Primitive)
 
-let myYoutubename = "sejalgupta.com"
+let myYoutubename = "sejalguptadotcom"
+let anothername = myYoutubename
+anothername = "Learn web Development"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+// here we are just copying
+
+
+
+// here er are passing the actual value means referenceing
+let user = {
+    email: "user@google.com",
+    upi : "user1"
+}
+
+let user2  = user
+
+user2.email = "sejal@google.com"
+
+console.log(user.email)
+console.log(user2.email)
+
+
+
 
 
 
