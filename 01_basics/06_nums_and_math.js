@@ -29,7 +29,10 @@
 
 // Most imp for use
 // console.log(Math.random()) // value lying between 0 and 1
-console.log((Math.random()*10) +1) // values lying between 1 and 9
+console.log(Math.ceil((Math.random()*10) +1)) // values lying between 1 and 9
+const min = 11;
+const max = 20;
+console.log(Math.floor((Math.random() * (max - min) )+ min));
 
 
 
