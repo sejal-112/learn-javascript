@@ -22,7 +22,7 @@ const regularUser = {
 
 // console.log(regularUser)
 //  console.log(regularUser.fullname?.userfullname.firstname)  // ? this is little protected beacuse if it is present then ok otherwise it skip
- // warna if else lagate reh jaoge
+// otherwise we use if else here
 
 
  // we can also combine objects like array
