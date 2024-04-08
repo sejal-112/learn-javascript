@@ -21,7 +21,7 @@ const regularUser = {
 }
 
 // console.log(regularUser)
-//  console.log(regularUser.fullname?.userfullname.firstname)  // ? this is little protected beacuse is it is present then ok otherwise kuch or hoga aage
+//  console.log(regularUser.fullname?.userfullname.firstname)  // ? this is little protected beacuse if it is present then ok otherwise it skip
  // warna if else lagate reh jaoge
 
 

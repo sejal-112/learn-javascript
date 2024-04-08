@@ -32,7 +32,7 @@
 console.log(Math.ceil((Math.random()*10) +1)) // values lying between 1 and 9
 const min = 11;
 const max = 20;
-console.log(Math.floor((Math.random() * (max - min) )+ min));
+console.log(Math.floor((Math.random() * (max - min))+ min));
 
 
 
