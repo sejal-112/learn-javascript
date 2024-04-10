@@ -53,6 +53,10 @@ const user = {
  const addTwo4 = (num1, num2) => ({username: "sejal"})
  console.log(addTwo4(12, 34))
 
+ // Remmember these  --> 
+//  () => {}
+//  () => ()
+
  
 
 
