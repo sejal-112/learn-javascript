@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur Code</title>
+    <style>
+        * {
+            background-color: #212121;
+            color: #fff;
+        
+        }
+    </style>
+</head>
+<body>
+
+  
+</body>
+<script>
+    const div = document.createElement('div')
+    console.log(div)
+    div.className = "main"
+    div.id = Math.round((Math.random() * 10) + 1)
+    div.setAttribute("title","gererated title")  // more prefered then direct
+    div.style.backgroundColor = "green"   // because they(id , className, innerText) just override the value  and setAttribute direct set the value
+    div.style.padding = "14px"
+    // div.innerText = "Now div is created" 
+
+    // Now attach the child to the document
+    const addText = document.createTextNode("Now div is created")
+    div.appendCHild(addText)
+    document.body.appendChild(div)
+    
+
+
+
+
+
+
+
+
+</script>
+</html>
