@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Events</title>
+</head>
+<body style="background-color: #414141; color:aliceblue">
+    <h2>Amazing Images</h2>
+    <div>
+        <ul id="images">
+            <li><img width="200px" id="flower" src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zM193YWxscGFwZXJfcGF0dGVybl9vZl9wYXN0ZWxfY29sb3JlZF9wZW5jaWxfdF9kNzIzNTM5YS1iMDJiLTQ0ZmItYjA5Zi1mNzQwNjMxYjM1NTNfMS5qcGc.jpg" alt=""></li>
+            <li><img width="200px" id="river" src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg" alt=""></li>
+            <li><img width="200px" id="moon" src="https://images3.alphacoders.com/133/1332803.png" alt=""></li>
+            <li><img width="200px" id="prayer" src="https://w0.peakpx.com/wallpaper/855/936/HD-wallpaper-lord-krishna-with-radha-lord-krishna-radha-krishna-kanha-god-hare-krishna-thumbnail.jpg" alt=""></li>
+           <li> <a style="color:aliceblue" href="https://google.com" id="google">Google</a></li>
+        </ul>
+    </div>
+    
+</body>
+<script>
+    // document.querySelector('#moon').onclick = function() {
+    //     alert("moon clicked")
+    // }
+
+     // atatachEvent()
+    // jQuery - on
+
+        //event propagetion -> false, true
+    // two context for event propagation-> event bubbling, event capturing, by default it is false which is known as event bubbling
+    
+    // type, timestamp, defaultPrevented, 
+    // target, toElement, srcElement, currentTarget,
+    //clientX, clientY, screenX, screenY
+    // altkey, ctrlkey, shiftkey, keyCode
+
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log("clicked inside the ul");
+        
+    // }, true)
+
+    // document.getElementById('moon').addEventListener('click', function(e){
+    //     console.log("moon clicked");
+        
+    // }, true)
+
+
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log("clicked inside the ul");
+        
+    // }, false)
+
+    // document.getElementById('moon').addEventListener('click', function(e){
+    //     console.log("moon clicked");
+    //     e.stopPropagation()  
+    //     //event do not bubble and do not go to upper element
+        
+    // }, false)
+
+    // document.getElementById('google').addEventListener('click', function(e) {
+    //     e.preventDefault()
+    //     e.stopPropagation()
+    //     console.log('google clicked')
+    // }, false)
+
+    document.querySelector('#iamges').addEventListener('click', function(e){
+        console.log(e);
+    }, false)
+
+    
+    
+
+
+
+</script>
+</html>
