@@ -12,7 +12,7 @@ function SetUsername(username) {
 }
 
 function createUser(username, email, password) {
-  SetUsername.call(this, username); // iska call gayab ho jayega apan ko refrence hold karke rakhna hai means this bhi pass karna padega means current cintext
+  SetUsername.call(this, username); // iska call gayab ho jayega apan ko refrence hold karke rakhna hai means this bhi pass karna padega means current context
   this.email = email;
   this.password = password;
 }
